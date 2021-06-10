@@ -1,10 +1,8 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(245, 236, 115);
+  background-color: rgb(188 186 190);
 }
 .menu {
   position: fixed;
@@ -12,17 +10,16 @@ body {
   display: flex;
   justify-content: space-around;
   height: 90px;
-  border-bottom: 3px white solid;
-  background-color: rgb(194 220 221);
+  border-bottom: rgb(30 36 42) 3px solid;
+  background-color: #f1f1f2;
   align-items: center;
   z-index: 99999999;
 }
 .menu > a > span {
-  color: white;
+  color: rgb(30 36 42);
 }
 .head {
   font-size: 30px;
-  text-shadow: 2px 2px rgb(40 104 106);
   text-decoration: none;
 }
 
@@ -37,21 +34,21 @@ body {
   width: 100%;
   margin: 10px;
   cursor: pointer;
-  color: white;
+  color: rgb(30 36 42);
   font-size: 20px;
   transition: 0.1s;
 }
 .flex-item > a {
   text-decoration: none;
-  color: white;
+  color: rgb(30 36 42);
 }
 .flex-item > a:hover {
-  color: burlywood;
+  color: rgb(144 161 166);
 }
 .book-online {
   width: 150px;
   height: 50px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(102 107 114 / 28%);
   border-radius: 50px;
   font-size: 20px;
   text-align: center;
@@ -61,11 +58,11 @@ body {
 }
 .book-online:hover {
   transform: translateY(-7px);
-  background-color: burlywood;
-  color: black;
+  background-color: rgb(144 161 166);
+  color: rgb(241 241 242);
 }
 .book-online {
-  color: burlywood;
+  color: rgb(30 36 42);
 }
 .end-part {
   width: 100%;
@@ -73,11 +70,11 @@ body {
   line-height: 100px;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(184 172 166 / 77%);
+  background-color: rgb(26 149 173);
 }
 .e-part1 {
   width: 30%;
-  color: rgba(0, 0, 0, 0.589);
+  color: rgb(243 250 251);
   text-align: center;
 }
 .e-part2 {
@@ -100,14 +97,14 @@ body {
   transition: 0.3s;
 }
 .e-part3 a:hover {
-  color: #edc887;
+  color: rgb(144 161 166);
 }
 .end-p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color: rgb(144 161 166);
   border: none;
   transition: 0.5s;
 }
@@ -117,6 +114,80 @@ body {
 }
 .end-p:hover {
   color: white;
-  background-color: black;
+  background-color: rgb(144 161 166);
   transform: rotate(30deg);
+}
+.page {
+  width: 100%;
+  height: 450px;
+  background-image: url(./images/page-head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fon {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(31, 31, 31, 0.68);
+  padding-top: 160px;
+  font-size: 30px;
+}
+.fon > h2 > span {
+  border-top: solid 1px rgb(188 186 190);
+}
+.fon > h2 {
+  color: rgb(188 186 190);
+  font-family: "Mate SC", serif;
+}
+.fon > p {
+  font-family: "Mate SC", serif;
+  color: rgb(188 186 190);
+}
+.pg-item {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: rgb(237 237 238);
+  font-size: 30px;
+}
+.general {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  background-color: rgb(205 205 223);
+  display: flex;
+  flex-flow: row wrap;
+  box-shadow: 0px 0px 100px darkslategrey;
+  justify-content: space-around;
+}
+.general-item {
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: rgb(26 149 173) 0px 5px 90px;
+}
+.fon1 {
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 100%;
+  background-color: rgb(161 214 226 / 67%);
+  position: absolute;
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+.general-item:hover > .fon1 {
+  opacity: 1;
+  right: 0;
+  width: 100%;
+}
+.fon1 > h2 {
+  width: 300px;
+  color: rgb(250 253 254);
+  text-align: center;
+  line-height: 300px;
+  font-family: "Indie Flower", cursive;
 }
