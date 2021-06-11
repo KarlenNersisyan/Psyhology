@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #428d8d;
+  background-color: aliceblue;
 }
 .menu {
   position: fixed;
@@ -104,7 +104,7 @@ body {
 }
 .item1 {
   width: 100%;
-  background-color: turquoise;
+  background-color: #f1f1f2;
   padding: 5px 5px;
 }
 .item2 {
@@ -114,7 +114,7 @@ body {
 
 .item1 h2 {
   padding: 0px 25px;
-  color: white;
+  color: burlywood;
   font-family: "Dancing Script", cursive;
 }
 .item1 ul {
@@ -131,7 +131,7 @@ body {
 }
 .item3 {
   width: 100%;
-  background-color: turquoise;
+  background-color: #f1f1f2;
   padding: 5px 5px;
 }
 .item4,
@@ -143,7 +143,7 @@ body {
 
 .item3 h2 {
   padding: 0px 25px;
-  color: white;
+  color: burlywood;
   font-family: "Dancing Script", cursive;
 }
 .item3 ul {
@@ -157,16 +157,17 @@ body {
   width: 90%;
   margin: 0px 5%;
   display: flex;
-  background-color: #40e0d0;
+  background-color: #f1f1f2;
   justify-content: space-around;
 }
 .part1 {
   width: 60%;
-  background-color: turquoise;
+  background-color: #f1f1f2;
   padding: 5px 5px;
 }
 .part2 {
   width: 40%;
+  padding-top: 40px;
 }
 
 .square > i {
@@ -178,7 +179,7 @@ body {
 }
 .part1 h2 {
   padding: 0px 25px;
-  color: white;
+  color: burlywood;
   font-family: "Dancing Script", cursive;
 }
 .part1 ul {
