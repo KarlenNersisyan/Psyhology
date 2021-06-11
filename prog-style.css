@@ -73,7 +73,8 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  background-image: url(./assets/Images/1.jpg);
+  background-image: url(./assets/Images/programs.jpg);
+  background-size: cover;
 }
 .fon {
   width: 100%;
