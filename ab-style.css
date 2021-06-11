@@ -68,7 +68,7 @@ body {
   width: 90%;
   margin-left: 5%;
   height: 500px;
-  background-image: url(./assets/Images/picture2.png);
+  background-image: url(./assets/Images/4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -141,23 +141,18 @@ body {
 .award-fon {
   width: 100%;
   height: 100%;
-  text-align: right;
-
+  text-align: justify;
   font-size: 28px;
   padding: 150px 1% 0 50%;
-
   background-color: rgb(51 54 58 / 65%);
 }
 .award-fon h5 {
   color: ROSYBROWN;
   font-style: italic;
   font-size: 16px;
-  text-align: justify;
-  padding-left: 355px;
   padding-bottom: 10px;
 }
 .award-fon h4 {
-  padding-left: 75px;
   padding-right: 20px;
   font-size: 25px;
   color: #ead5d5;
@@ -167,8 +162,6 @@ body {
   font-size: 25px;
   font-style: italic;
   color: white;
-  text-align: justify;
-  padding-left: 170px;
   padding-right: 20px;
 }
 .journey {
@@ -178,37 +171,69 @@ body {
   justify-content: space-around;
   margin-top: 70px;
 }
+.journey-background{
+  width: 40%;
+}
 .journey-text {
-  width: 70%;
-  padding-left: 80px;
+  width: 60%;
   text-align: justify;
+  padding: 0 50px;
 }
 .journey-text h5 {
   color: ROSYBROWN;
   font-style: italic;
   font-size: 20px;
-  padding: 11px;
-  text-align: justify;
-  padding-left: 0px;
 }
 .journey-text h4 {
   color: grey;
-  padding-bottom: 10px;
   font-size: 23px;
 }
 .journey-text p {
   font-size: 19px;
   font-style: italic;
   color: grey;
-  padding: 20px;
-  text-align: justify;
+}
+.end-part {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(184 172 166 / 77%);
+}
+.e-part1 {
+  width: 30%;
+  color: rgba(0, 0, 0, 0.589);
+  text-align: center;
+}
+.e-part2 {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 0 75px;
+}
+.e-part3 {
+  width: 40%;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 0 80px;
+}
+.e-part3 a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.e-part3 a:hover {
+  color: #edc887;
 }
 .end-p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
-  color: rgb(144 161 166);
+  color: rgb(0, 0, 0);
   border: none;
   transition: 0.5s;
 }
@@ -218,6 +243,6 @@ body {
 }
 .end-p:hover {
   color: white;
-  background-color: rgb(144 161 166);
+  background-color: black;
   transform: rotate(30deg);
 }
