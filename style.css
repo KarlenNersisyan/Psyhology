@@ -1,6 +1,5 @@
 * {
-  padding: 0;
-  margin: 0;
+
   box-sizing: border-box;
 }
 body {
@@ -12,7 +11,7 @@ body {
   height: 615px;
   position: relative;
   overflow: hidden;
-  background-image: url(./images/head1.jpg);
+  background-image: url(./assets/Images/head1.jpg);
 }
 .fon {
   width: 100%;

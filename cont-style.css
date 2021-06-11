@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
 }
@@ -11,7 +9,7 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #777;
-  background-image: url(./Images/fon-contact.jpg);
+  background-image: url(./assets/Images/fon-contact.jpg);
   background-size: cover;
   background-attachment:fixed;
 }
