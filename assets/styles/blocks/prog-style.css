@@ -1,3 +1,4 @@
+@import url(../../styles/variables.css);
 * {
   box-sizing: border-box;
 }
@@ -10,17 +11,16 @@ body {
   display: flex;
   justify-content: space-around;
   height: 90px;
-  border-bottom: 3px white solid;
-  background-color: rgb(194 220 221);
+  border-bottom: 3px rgba(15, 1, 1, 0.774) solid;
+  background-color: var(--menu-bg-color);
   align-items: center;
   z-index: 99999999;
 }
 .menu > a > span {
-  color: white;
+  color: var(--menu-item-color);
 }
 .head {
   font-size: 30px;
-  text-shadow: 2px 2px rgb(40 104 106);
   text-decoration: none;
 }
 
@@ -35,22 +35,22 @@ body {
   width: 100%;
   margin: 10px;
   cursor: pointer;
-  color: white;
   font-size: 20px;
   transition: 0.1s;
 }
 .flex-item > a {
   text-decoration: none;
-  color: white;
+  color: var(--menu-item-color);
 }
 .flex-item > a:hover {
-  color: burlywood;
+  color: var(--menu-item-hover-color);
 }
 .book-online {
   width: 150px;
   height: 50px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--menu-book-online-bg-color);
   border-radius: 50px;
+  text-decoration: none;
   font-size: 20px;
   text-align: center;
   line-height: 50px;
@@ -59,21 +59,18 @@ body {
 }
 .book-online:hover {
   transform: translateY(-7px);
-  background-color: burlywood;
-  color: black;
+  background-color: var(--menu-item-hover-color);
+  color: var(--menu-bg-color);
 }
 .book-online {
-  color: burlywood;
+  color: var(--menu-item-color);
 }
-
 .prog-item2 {
   width: 90%;
   margin-left: 5%;
   height: 600px;
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  background-image: url(./assets/Images/programs.jpg);
+  background-image: url(../../Images/programs.jpg);
   background-size: cover;
 }
 .fon {
@@ -115,12 +112,10 @@ body {
 
 .item1 h2 {
   padding: 0px 25px;
-  color: burlywood;
-  font-family: "Dancing Script", cursive;
 }
 .item1 ul {
   padding: 5px 70px;
-  font-style: italic;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 
 .prog-item4 {
@@ -144,12 +139,10 @@ body {
 
 .item3 h2 {
   padding: 0px 25px;
-  color: burlywood;
-  font-family: "Dancing Script", cursive;
 }
 .item3 ul {
   padding: 5px 70px;
-  font-style: italic;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 .item3 ul > li > a {
   text-decoration: none;
@@ -168,7 +161,7 @@ body {
 }
 .part2 {
   width: 40%;
-  padding-top: 40px;
+  padding-top: 70px;
 }
 
 .square > i {
@@ -177,15 +170,14 @@ body {
 }
 .part1 p {
   padding: 3px 50px;
+  font-size: 30px;
 }
 .part1 h2 {
   padding: 0px 25px;
-  color: burlywood;
-  font-family: "Dancing Script", cursive;
 }
 .part1 ul {
   padding: 5px 70px;
-  font-style: italic;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 .end-part {
   width: 100%;
@@ -193,7 +185,7 @@ body {
   line-height: 100px;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(135 216 225 / 77%);
+  background-color: rgb(202 204 207);
 }
 .e-part1 {
   width: 30%;
@@ -220,7 +212,7 @@ body {
   transition: 0.3s;
 }
 .e-part3 a:hover {
-  color: #edc887;
+  color: var(--menu-item-hover-color);
 }
 .end-p {
   width: 40px;
