@@ -193,3 +193,6 @@ body {
   background-color: black;
   transform: rotate(30deg);
 }
+.e-part1 a{
+  text-decoration: none;
+}
