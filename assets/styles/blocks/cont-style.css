@@ -24,6 +24,7 @@ body {
 }
 .menu > a > span {
   color: var(--menu-item-color);
+  font-family: 'Satisfy', cursive;
 }
 .head {
   font-size: 30px;
@@ -36,6 +37,7 @@ body {
 }
 .space-evenly {
   justify-content: space-evenly;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .flex-item {
   width: 100%;
@@ -70,6 +72,7 @@ body {
 }
 .book-online {
   color: var(--menu-item-color);
+  font-family: 'Noto Sans TC', sans-serif
 }
 
 /* Contact Us */

@@ -6,6 +6,7 @@
 body {
   background-color: aliceblue;
 }
+/* Menu */
 .menu {
   position: fixed;
   width: 100%;
@@ -19,6 +20,7 @@ body {
 }
 .menu > a > span {
   color: var(--menu-item-color);
+  font-family: "Satisfy", cursive;
 }
 .head {
   font-size: 30px;
@@ -31,6 +33,7 @@ body {
 }
 .space-evenly {
   justify-content: space-evenly;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .flex-item {
   width: 100%;
@@ -65,7 +68,9 @@ body {
 }
 .book-online {
   color: var(--menu-item-color);
+  font-family: "Noto Sans TC", sans-serif;
 }
+/* Menu end  */
 .home {
   width: 90%;
   margin-left: 5%;
@@ -186,6 +191,7 @@ body {
 .psychology a {
   text-decoration: none;
   color: var(--menu-item-hover-color);
+  font-family: "Satisfy", cursive;
 }
 .psychology2 {
   width: 90%;
@@ -200,13 +206,20 @@ body {
 }
 .sec-item1 h2 {
   padding: 0px 25px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .sec-item1 ul {
   padding: 5px 70px;
-  font-family: "ZCOOL KuaiLe", cursive;
+
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item1 p {
-  padding: 0px 25px;
+  padding: 0px 64px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item2 {
   width: 50%;
@@ -223,10 +236,13 @@ body {
 }
 .sec-item3 h2 {
   padding: 0px 25px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .sec-item3 p {
   padding: 0px 25px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item4 {
   width: 50%;
@@ -243,10 +259,13 @@ body {
 }
 .sec-item5 h2 {
   padding: 35px 25px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .sec-item5 p {
   padding: 0px 25px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item6 {
   width: 50%;
@@ -304,10 +323,9 @@ body {
   background-color: black;
   transform: rotate(30deg);
 }
-<<<<<<< HEAD:style.css
+
 /* Style */
-=======
-.e-part1 a{
+
+.e-part1 a {
   text-decoration: none;
 }
->>>>>>> 734377998ddd933051d3e52dc4f0c215e61d9f65:assets/styles/main.css

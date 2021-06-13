@@ -18,6 +18,7 @@ body {
 }
 .menu > a > span {
   color: var(--menu-item-color);
+  font-family: 'Satisfy', cursive;
 }
 .head {
   font-size: 30px;
@@ -30,6 +31,7 @@ body {
 }
 .space-evenly {
   justify-content: space-evenly;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .flex-item {
   width: 100%;
@@ -64,6 +66,7 @@ body {
 }
 .book-online {
   color: var(--menu-item-color);
+  font-family: 'Noto Sans TC', sans-serif
 }
 .page {
   width: 100%;
@@ -82,13 +85,15 @@ body {
 }
 .fon > h2 > span {
   border-top: solid 1px rgb(188 186 190);
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .fon > h2 {
   color: rgb(188 186 190);
   font-size: 50px;
 }
 .fon > p {
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Open Sans', sans-serif;
   color: rgb(188 186 190);
 }
 .pg-item {
@@ -98,6 +103,7 @@ body {
   text-align: center;
   color: var(--menu-item-hover-color);
   font-size: 30px;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .general {
   width: 90%;
