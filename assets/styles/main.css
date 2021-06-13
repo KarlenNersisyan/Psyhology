@@ -1,9 +1,70 @@
-* {
+@import url(./variables.css);
 
+* {
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(194, 220, 221);
+  background-color: aliceblue;
+}
+.menu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  border-bottom: 3px rgba(15, 1, 1, 0.774) solid;
+  background-color: var(--menu-bg-color);
+  align-items: center;
+  z-index: 99999999;
+}
+.menu > a > span {
+  color: var(--menu-item-color);
+}
+.head {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.flex-container {
+  list-style: none;
+  display: flex;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.flex-item {
+  width: 100%;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.1s;
+}
+.flex-item > a {
+  text-decoration: none;
+  color: var(--menu-item-color);
+}
+.flex-item > a:hover {
+  color: var(--menu-item-hover-color);
+}
+.book-online {
+  width: 150px;
+  height: 50px;
+  background-color: var(--menu-book-online-bg-color);
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.book-online:hover {
+  transform: translateY(-7px);
+  background-color: var(--menu-item-hover-color);
+  color: var(--menu-bg-color);
+}
+.book-online {
+  color: var(--menu-item-color);
 }
 .home {
   width: 90%;
@@ -11,7 +72,7 @@ body {
   height: 615px;
   position: relative;
   overflow: hidden;
-  background-image: url(./assets/Images/head1.jpg);
+  background-image: url(../Images/head1.jpg);
 }
 .fon {
   width: 100%;
@@ -104,67 +165,6 @@ body {
     bottom: 0px;
   }
 }
-.menu {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  height: 90px;
-  border-bottom: 3px white solid;
-  background-color: rgb(194 220 221);
-  align-items: center;
-  z-index: 99999999;
-}
-.menu > a > span {
-  color: white;
-}
-.head {
-  font-size: 30px;
-  text-shadow: 2px 2px rgb(40 104 106);
-  text-decoration: none;
-}
-
-.flex-container {
-  list-style: none;
-  display: flex;
-}
-.space-evenly {
-  justify-content: space-evenly;
-}
-.flex-item {
-  width: 100%;
-  margin: 10px;
-  cursor: pointer;
-  color: white;
-  font-size: 20px;
-  transition: 0.1s;
-}
-.flex-item > a {
-  text-decoration: none;
-  color: white;
-}
-.flex-item > a:hover {
-  color: burlywood;
-}
-.book-online {
-  width: 150px;
-  height: 50px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50px;
-  font-size: 20px;
-  text-align: center;
-  line-height: 50px;
-  transition: 0.5s;
-  cursor: pointer;
-}
-.book-online:hover {
-  transform: translateY(-7px);
-  background-color: burlywood;
-  color: black;
-}
-.book-online {
-  color: burlywood;
-}
 
 .psychology {
   width: 90%;
@@ -185,7 +185,7 @@ body {
 }
 .psychology a {
   text-decoration: none;
-  color: white;
+  color: var(--menu-item-hover-color);
 }
 .psychology2 {
   width: 90%;
@@ -203,7 +203,7 @@ body {
 }
 .sec-item1 ul {
   padding: 5px 70px;
-  font-style: italic;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 .sec-item1 p {
   padding: 0px 25px;
@@ -226,7 +226,7 @@ body {
 }
 .sec-item3 p {
   padding: 0px 25px;
-  font-style: italic;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 .sec-item4 {
   width: 50%;
@@ -246,7 +246,7 @@ body {
 }
 .sec-item5 p {
   padding: 0px 25px;
-  font-style: italic;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 .sec-item6 {
   width: 50%;
@@ -284,7 +284,7 @@ body {
   transition: 0.3s;
 }
 .e-part3 a:hover {
-  color: #edc887;
+  color: var(--menu-item-hover-color);
 }
 .end-p {
   width: 40px;
@@ -304,4 +304,10 @@ body {
   background-color: black;
   transform: rotate(30deg);
 }
+<<<<<<< HEAD:style.css
 /* Style */
+=======
+.e-part1 a{
+  text-decoration: none;
+}
+>>>>>>> 734377998ddd933051d3e52dc4f0c215e61d9f65:assets/styles/main.css
