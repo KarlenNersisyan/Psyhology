@@ -5,6 +5,74 @@
 body {
   background-color: rgb(194, 220, 221);
 }
+/* Menu style start */
+.menu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  border-bottom: rgb(30 36 42) 3px solid;
+  background-color: #f1f1f2;
+  align-items: center;
+  z-index: 99999999;
+}
+.menu > a > span {
+  color: rgb(30 36 42);
+  font-family: "Satisfy", cursive;
+}
+.head {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.flex-container {
+  list-style: none;
+  display: flex;
+}
+.space-evenly {
+  font-family: "Abel", sans-serif;
+
+  justify-content: space-evenly;
+}
+.flex-item {
+  width: 100%;
+  margin: 10px;
+  cursor: pointer;
+  color: rgb(30 36 42);
+  font-size: 20px;
+  transition: 0.1s;
+}
+.flex-item > a {
+  text-decoration: none;
+  color: rgb(30 36 42);
+}
+.flex-item > a:hover {
+  color: rgb(144 161 166);
+}
+.book-online {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(102 107 114 / 28%);
+  border-radius: 50px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.book-online:hover {
+  transform: translateY(-7px);
+  background-color: rgb(144 161 166);
+  color: rgb(241 241 242);
+}
+.book-online {
+  font-family: "Abel", sans-serif;
+
+  color: rgb(30 36 42);
+}
+/* Menu style end */
+
 .home {
   width: 90%;
   margin-left: 5%;
@@ -103,67 +171,6 @@ body {
   100% {
     bottom: 0px;
   }
-}
-.menu {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  height: 90px;
-  border-bottom: 3px white solid;
-  background-color: rgb(194 220 221);
-  align-items: center;
-  z-index: 99999999;
-}
-.menu > a > span {
-  color: white;
-}
-.head {
-  font-size: 30px;
-  text-shadow: 2px 2px rgb(40 104 106);
-  text-decoration: none;
-}
-
-.flex-container {
-  list-style: none;
-  display: flex;
-}
-.space-evenly {
-  justify-content: space-evenly;
-}
-.flex-item {
-  width: 100%;
-  margin: 10px;
-  cursor: pointer;
-  color: white;
-  font-size: 20px;
-  transition: 0.1s;
-}
-.flex-item > a {
-  text-decoration: none;
-  color: white;
-}
-.flex-item > a:hover {
-  color: burlywood;
-}
-.book-online {
-  width: 150px;
-  height: 50px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50px;
-  font-size: 20px;
-  text-align: center;
-  line-height: 50px;
-  transition: 0.5s;
-  cursor: pointer;
-}
-.book-online:hover {
-  transform: translateY(-7px);
-  background-color: burlywood;
-  color: black;
-}
-.book-online {
-  color: burlywood;
 }
 
 .psychology {

@@ -4,6 +4,7 @@
 body {
   background-color: aliceblue;
 }
+/* Menu style */
 .menu {
   position: fixed;
   width: 100%;
@@ -17,6 +18,7 @@ body {
 }
 .menu > a > span {
   color: rgb(30 36 42);
+  font-family: "Satisfy", cursive;
 }
 .head {
   font-size: 30px;
@@ -28,6 +30,8 @@ body {
   display: flex;
 }
 .space-evenly {
+  font-family: "Abel", sans-serif;
+
   justify-content: space-evenly;
 }
 .flex-item {
@@ -62,8 +66,11 @@ body {
   color: rgb(241 241 242);
 }
 .book-online {
+  font-family: "Abel", sans-serif;
+
   color: rgb(30 36 42);
 }
+/* Menu end style */
 .header {
   width: 90%;
   margin-left: 5%;
@@ -81,6 +88,8 @@ body {
   background-color: rgb(51 54 58 / 65%);
 }
 .header-fon > h1 > span {
+  font-family: "Abel", sans-serif;
+
   border-bottom: 1px #fff solid;
 }
 .header-fon h1 {
@@ -110,12 +119,12 @@ body {
   color: ROSYBROWN;
   font-style: italic;
   font-size: 20px;
-  font-size: 20px;
   padding: 20px;
   text-align: justify;
+  font-family: "Abel", sans-serif;
 }
 .item2 h4 {
-  font-size: 40px;
+  font-family: "Abel", sans-serif;
   font-size: 25px;
   color: grey;
   padding: 20px;
@@ -151,12 +160,14 @@ body {
   font-style: italic;
   font-size: 16px;
   padding-bottom: 10px;
+  font-family: "Abel", sans-serif;
 }
 .award-fon h4 {
   padding-right: 20px;
   font-size: 25px;
   color: #ead5d5;
   padding-bottom: 10px;
+  font-family: "Abel", sans-serif;
 }
 .award-fon p {
   font-size: 25px;
@@ -171,7 +182,7 @@ body {
   justify-content: space-around;
   margin-top: 70px;
 }
-.journey-background{
+.journey-background {
   width: 40%;
 }
 .journey-text {
@@ -183,10 +194,12 @@ body {
   color: ROSYBROWN;
   font-style: italic;
   font-size: 20px;
+  font-family: "Abel", sans-serif;
 }
 .journey-text h4 {
   color: grey;
   font-size: 23px;
+  font-family: "Abel", sans-serif;
 }
 .journey-text p {
   font-size: 19px;
@@ -205,6 +218,7 @@ body {
   width: 30%;
   color: rgba(0, 0, 0, 0.589);
   text-align: center;
+  font-family: "Abel", sans-serif;
 }
 .e-part2 {
   width: 30%;
@@ -216,14 +230,14 @@ body {
 .e-part3 {
   width: 40%;
   display: flex;
-  color: white;
   justify-content: space-around;
   padding: 0 80px;
+  font-family: "Abel", sans-serif;
 }
 .e-part3 a {
   text-decoration: none;
-  color: white;
   transition: 0.3s;
+  color: rgba(0, 0, 0, 0.589);
 }
 .e-part3 a:hover {
   color: #edc887;
