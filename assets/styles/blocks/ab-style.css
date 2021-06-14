@@ -454,26 +454,27 @@ body {
   }
   .e-part1 {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    line-height: 40px;
+    height: 40px;
     font-size: 15px;
   }
   .e-part2 {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
     background-color: blanchedalmond;
-    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
   }
   .e-part2 > a > i {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
   }
   .e-part3 {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
     background-color: burlywood;
   }
   .e-part3 a {
@@ -483,10 +484,10 @@ body {
 }
 @media (max-width: 375px) {
   body {
-    font-size: 15px;
+    font-size: 11px;
   }
   .head {
-    width: 33%;
+    width: 37%;
   }
   .head span {
     font-size: 13px;
@@ -498,17 +499,17 @@ body {
     display: none;
   }
   .book-online {
-    width: 24%;
+    width: 21%;
     height: 30px;
     line-height: 30px;
   }
   .book-online0 {
-    width: 24%;
+    width: 27%;
     height: 30px;
     line-height: 30px;
   }
   .menu-block {
-    width: 19%;
+    width: 15%;
     display: block;
   }
   .menu-table {
@@ -550,26 +551,27 @@ body {
   }
   .e-part1 {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    line-height: 40px;
+    height: 40px;
     font-size: 15px;
   }
   .e-part2 {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
     background-color: blanchedalmond;
-    font-size: 25px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
   }
   .e-part2 > a > i {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
   }
   .e-part3 {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
     background-color: burlywood;
   }
   .e-part3 a {
@@ -614,10 +616,6 @@ body {
     display: flex;
     justify-content: space-around;
   }
-  .end-part {
-    flex-direction: column;
-    justify-content: space-between;
-  }
   .background2 {
     flex-direction: column;
     justify-content: space-around;
@@ -644,15 +642,33 @@ body {
   .journey-text {
     width: 100%;
   }
-  .e-part2 > a > i {
-    width: 40px;
-    height: 40px;
+  .end-part {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .e-part1 {
+    width: 100%;
     line-height: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .e-part2 {
+    width: 100%;
+    background-color: blanchedalmond;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .e-part2 > a > i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
   }
   .e-part3 {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
     background-color: burlywood;
   }
   .e-part3 a {

@@ -51,7 +51,6 @@ body {
 /* ------------------------------------------------ */
 .menu > a > span {
   color: var(--menu-item-color);
-
 }
 .head {
   width: 30%;
@@ -399,20 +398,27 @@ body {
   }
   .e-part1 {
     width: 100%;
+    line-height: 40px;
+    height: 40px;
     font-size: 15px;
   }
   .e-part2 {
     width: 100%;
     background-color: blanchedalmond;
-    font-size: 25px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
   }
   .e-part2 > a > i {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
   }
   .e-part3 {
     width: 100%;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
     background-color: burlywood;
   }
   .e-part3 a {
@@ -421,11 +427,11 @@ body {
   }
 }
 @media (max-width: 375px) {
-  .menu {
-    justify-content: space-between;
+  body {
+    font-size: 11px;
   }
   .head {
-    width: 33%;
+    width: 37%;
   }
   .head span {
     font-size: 13px;
@@ -437,17 +443,17 @@ body {
     display: none;
   }
   .book-online {
-    width: 24%;
+    width: 21%;
     height: 30px;
     line-height: 30px;
   }
   .book-online0 {
-    width: 24%;
+    width: 27%;
     height: 30px;
     line-height: 30px;
   }
   .menu-block {
-    width: 19%;
+    width: 15%;
     display: block;
   }
   .menu-table {
@@ -467,7 +473,7 @@ body {
     font-size: 13px;
   }
   .pg-item {
-    font-size: 13px;
+    font-size: 2px;
   }
   .fon1 h2 {
     font-size: 20px;
@@ -478,20 +484,27 @@ body {
   }
   .e-part1 {
     width: 100%;
+    line-height: 40px;
+    height: 40px;
     font-size: 15px;
   }
   .e-part2 {
     width: 100%;
     background-color: blanchedalmond;
-    font-size: 25px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
   }
   .e-part2 > a > i {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
   }
   .e-part3 {
     width: 100%;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
     background-color: burlywood;
   }
   .e-part3 a {
@@ -553,20 +566,27 @@ body {
   }
   .e-part1 {
     width: 100%;
+    line-height: 40px;
+    height: 40px;
     font-size: 15px;
   }
   .e-part2 {
     width: 100%;
     background-color: blanchedalmond;
-    font-size: 25px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
   }
   .e-part2 > a > i {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
   }
   .e-part3 {
     width: 100%;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
     background-color: burlywood;
   }
   .e-part3 a {
