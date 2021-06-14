@@ -51,9 +51,11 @@ body {
 /* ------------------------------------------------ */
 .menu > a > span {
   color: var(--menu-item-color);
+
 }
 .head {
   width: 30%;
+  font-size: 30px;
   text-decoration: none;
 }
 
