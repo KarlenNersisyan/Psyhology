@@ -18,6 +18,7 @@ body {
 }
 .menu > a > span {
   color: var(--menu-item-color);
+  font-family: "Satisfy", cursive;
 }
 .head {
   width: 30%;
@@ -29,6 +30,7 @@ body {
   list-style: none;
   width: 40%;
   display: flex;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .space-evenly {
   justify-content: space-evenly;
@@ -66,6 +68,7 @@ body {
 }
 .book-online {
   color: var(--menu-item-color);
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .book-online0 {
   width: 15%;
@@ -86,6 +89,7 @@ body {
 }
 .book-online0 {
   color: var(--menu-item-color);
+  font-family: 'Noto Sans TC', sans-serif;
 }
 /* ------------------------------------------------ */
 .menu-block {
@@ -137,6 +141,7 @@ body {
 }
 .header-fon > h1 > span {
   border-bottom: 1px #fff solid;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .header-fon h1 {
   color: white;
@@ -144,7 +149,9 @@ body {
 .header-fon p {
   color: white;
   padding-top: 20px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 
 .background2 {
@@ -163,7 +170,8 @@ body {
 }
 .item2 h5 {
   color: ROSYBROWN;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-size: 20px;
   padding: 20px;
@@ -173,10 +181,13 @@ body {
   font-size: 25px;
   color: grey;
   padding: 5px 15px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .item2 p {
   font-size: 20px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: grey;
   padding: 20px;
   text-align: justify;
@@ -201,7 +212,8 @@ body {
 }
 .award-fon h5 {
   color: ROSYBROWN;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding-bottom: 10px;
 }
@@ -210,12 +222,15 @@ body {
   font-size: 25px;
   color: #ead5d5;
   padding-bottom: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .award-fon p {
   font-size: 25px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: white;
   padding-right: 20px;
+  text-align: justify;
 }
 .journey {
   width: 90%;
@@ -234,16 +249,20 @@ body {
 }
 .journey-text h5 {
   color: ROSYBROWN;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 .journey-text h4 {
   color: grey;
   font-size: 23px;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .journey-text p {
   font-size: 19px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Open Sans', sans-serif;
+text-align: justify;
   color: grey;
 }
 .end-part {

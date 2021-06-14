@@ -19,6 +19,7 @@ body {
 }
 .menu > a > span {
   color: var(--menu-item-color);
+  font-family: "Satisfy", cursive;
 }
 .head {
   width: 30%;
@@ -30,6 +31,7 @@ body {
   width: 40%;
   list-style: none;
   display: flex;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .space-evenly {
   justify-content: space-evenly;
@@ -67,6 +69,7 @@ body {
 }
 .book-online {
   color: var(--menu-item-color);
+  font-family: "Noto Sans TC", sans-serif;
 }
 .book-online0 {
   width: 15%;
@@ -79,6 +82,7 @@ body {
   line-height: 50px;
   transition: 0.5s;
   cursor: pointer;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .book-online0:hover {
   transform: translateY(-7px);
@@ -254,13 +258,19 @@ body {
 }
 .sec-item1 h2 {
   padding: 0px 25px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .sec-item1 ul {
   padding: 5px 70px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item1 p {
   padding: 0px 25px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item2 {
   width: 50%;
@@ -277,10 +287,13 @@ body {
 }
 .sec-item3 h2 {
   padding: 0px 25px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .sec-item3 p {
   padding: 0px 25px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item4 {
   width: 50%;
@@ -297,10 +310,13 @@ body {
 }
 .sec-item5 h2 {
   padding: 35px 25px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .sec-item5 p {
   padding: 0px 25px;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .sec-item6 {
   width: 50%;
