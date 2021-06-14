@@ -358,15 +358,7 @@ body {
   background-color: black;
   transform: rotate(30deg);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD:style.css
-/* Style */
-=======
-.e-part1 a{
-  text-decoration: none;
-}
->>>>>>> 734377998ddd933051d3e52dc4f0c215e61d9f65:assets/styles/main.css
-=======
+
 .e-part1 a {
   text-decoration: none;
 }
@@ -709,4 +701,3 @@ body {
     font-size: 15px;
   }
 }
->>>>>>> 37bca2ce17bd4e6a8f40ffca9bdaf9a7f689099c
