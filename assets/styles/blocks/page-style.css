@@ -148,7 +148,7 @@ body {
 .pg-item {
   width: 100%;
   height: 70px;
-  font-size: 1.25rem;
+  font-size: 1.65rem;
   line-height: 70px;
   text-align: center;
   color: var(--menu-item-hover-color);
@@ -398,7 +398,7 @@ body {
     font-size: 0.65rem;
   }
   .pg-item {
-    font-size: 0.45rem;
+    font-size:0.6rem;
   }
   .menu-mobile {
     font-size: 0.5rem;
@@ -488,7 +488,7 @@ body {
     font-size: 13px;
   }
   .pg-item {
-    font-size: 2px;
+    font-size:0.6rem;
   }
   .fon1 h2 {
     font-size: 20px;
