@@ -18,7 +18,7 @@ body {
 }
 .menu > a > span {
   color: var(--menu-item-color);
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
 }
 .head {
   width: 30%;
@@ -30,7 +30,7 @@ body {
   width: 40%;
   list-style: none;
   display: flex;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .space-evenly {
   justify-content: space-evenly;
@@ -68,7 +68,7 @@ body {
 }
 .book-online {
   color: var(--menu-item-color);
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .book-online0 {
   width: 15%;
@@ -89,7 +89,7 @@ body {
 }
 .book-online0 {
   color: var(--menu-item-color);
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 /* ------------------------------------------------ */
 .menu-block {
@@ -135,23 +135,20 @@ body {
   width: 100%;
   height: 100%;
   background-color: #1f1f1fad;
-  padding: 300px 5% 0px 100px;
+  padding: 260px 5% 0px 100px;
 }
 .fon > h1 > span {
   border-bottom: solid 1px white;
-  font-family: 'Noto Sans TC', sans-serif;
- font-size: 60px;
- text-align: center;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 2.5rem;
+  color: white;
 }
 .fon > h1 {
-  font-size: 70px;
-  color: white;
+  text-align: center;
 }
 .prog-item1 {
-  text-align: center;
-  font-size: 50px;
+  font-size: 1.5rem;
   color: white;
-  font-family: "ZCOOL KuaiLe", cursive;
 }
 
 .prog-item3 {
@@ -173,13 +170,13 @@ body {
 
 .item1 h2 {
   padding: 0px 25px;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .item1 ul {
   padding: 5px 70px;
-  font-family: 'Noto Sans TC', sans-serif;
-font-family: 'Open Sans', sans-serif;
-text-align: justify;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 
 .prog-item4 {
@@ -203,13 +200,13 @@ text-align: justify;
 
 .item3 h2 {
   padding: 0px 25px;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .item3 ul {
   padding: 5px 70px;
-  font-family: 'Noto Sans TC', sans-serif;
-font-family: 'Open Sans', sans-serif;
-text-align: justify;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
 }
 .item3 ul > li > a {
   text-decoration: none;
@@ -241,12 +238,12 @@ text-align: justify;
 }
 .part1 h2 {
   padding: 0px 25px;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .part1 ul {
   padding: 5px 70px;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: justify;
 }
 .end-part {
@@ -430,14 +427,18 @@ text-align: justify;
     justify-content: space-around;
   }
   .prog-item2 {
-    position: relative;
     height: 300px;
+  }
+  .fon{
+    position: relative;
   }
   .fon h1 {
     position: absolute;
-    top: 130px;
-    left: 65px;
-    font-size: 17px;
+    top:115px;
+    left:40px;
+    }
+  .fon > h1 > span {
+    font-size: 0.9rem;
   }
   .prog-part {
     flex-direction: column;
@@ -521,13 +522,18 @@ text-align: justify;
     justify-content: space-around;
   }
   .prog-item2 {
+    height: 270px;
+  }
+  .fon{
     position: relative;
   }
   .fon h1 {
     position: absolute;
-    top: 130px;
-    left: 43px;
-    font-size: 18px;
+    top:100px;
+    left:35px;
+    }
+  .fon > h1 > span {
+    font-size: 0.8rem;
   }
   .end-part {
     flex-direction: column;
@@ -599,6 +605,20 @@ text-align: justify;
     padding: 0px;
     display: flex;
     justify-content: space-around;
+  }
+  .prog-item2 {
+    height: 260px;
+  }
+  .fon{
+    position: relative;
+  }
+  .fon h1 {
+    position: absolute;
+    top:90px;
+    left:30px;
+    }
+  .fon > h1 > span {
+    font-size: 0.7rem;
   }
   .end-part {
     flex-direction: column;
