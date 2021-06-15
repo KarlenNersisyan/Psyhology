@@ -6,9 +6,11 @@
 body {
   background-color: aliceblue;
 }
+/* -----------------Menu Start */
 .menu {
   position: fixed;
   width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-around;
   height: 90px;
@@ -17,13 +19,46 @@ body {
   align-items: center;
   z-index: 99999999;
 }
+
+/* ------------------------------------------------ */
+.menu-block {
+  width: 19%;
+  display: none;
+}
+.menu-mobile {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: #cacccf;
+  font-size: 0.5rem;
+  border-radius: 20px;
+}
+
+.menu-item a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+.menu-table {
+  visibility: collapse;
+  position: absolute;
+  list-style: none;
+  transition: 0.1s;
+  background-color: #cacccf;
+  opacity: 1;
+}
+.menu-block:hover .menu-table {
+  visibility: visible;
+}
+/* ------------------------------------------------ */
 .menu > a > span {
   color: var(--menu-item-color);
   font-family: "Satisfy", cursive;
 }
 .head {
   width: 30%;
-  font-size: 30px;
+  font-size: 1.25rem;
   text-decoration: none;
 }
 
@@ -31,14 +66,11 @@ body {
   width: 40%;
   list-style: none;
   display: flex;
+  justify-content: space-between;
   font-family: "Noto Sans TC", sans-serif;
 }
-.space-evenly {
-  justify-content: space-evenly;
-}
 .flex-item {
-  width: 100%;
-  margin: 10px;
+  width: 20%;
   cursor: pointer;
   font-size: 20px;
   transition: 0.1s;
@@ -77,12 +109,11 @@ body {
   background-color: var(--menu-book-online-bg-color);
   border-radius: 50px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1rem;
   text-align: center;
   line-height: 50px;
   transition: 0.5s;
   cursor: pointer;
-  font-family: "Noto Sans TC", sans-serif;
 }
 .book-online0:hover {
   transform: translateY(-7px);
@@ -91,38 +122,10 @@ body {
 }
 .book-online0 {
   color: var(--menu-item-color);
+  font-size: 1rem;
+  font-family: "Noto Sans TC", sans-serif;
 }
-/* ------------------------------------------------ */
-.menu-block {
-  width: 19%;
-  display: none;
-}
-.menu-mobile {
-  position: relative;
-  width: 100%;
-  height: 30px;
-  border: none;
-  background-color: #cacccf;
-  font-size: 5px;
-  border-radius: 20px;
-}
-
-.menu-item a {
-  font-size: 15px;
-  color: black;
-  text-decoration: none;
-}
-.menu-table {
-  visibility: collapse;
-  position: absolute;
-  list-style: none;
-  transition: 0.1s;
-  background-color: #cacccf;
-  opacity: 1;
-}
-.menu-block:hover .menu-table {
-  visibility: visible;
-}
+/* ---------------Menu End */
 /* ------------------------------------------------ */
 .home {
   width: 90%;
@@ -482,8 +485,8 @@ body {
   }
 }
 @media (max-width: 425px) {
-  body {
-    font-size: 17px;
+  .menu {
+    justify-content: space-between;
   }
   .head {
     width: 33%;
@@ -500,12 +503,10 @@ body {
   .book-online {
     width: 24%;
     height: 30px;
-    font-size: 5px;
     line-height: 30px;
   }
   .book-online0 {
     width: 24%;
-    font-size: 5px;
     height: 30px;
     line-height: 30px;
   }
@@ -643,30 +644,25 @@ body {
   }
 }
 @media (max-width: 320px) {
-  body {
-    font-size: 15px;
-  }
   .head {
-    width: 20%;
+    width: 40%;
   }
   .head span {
-    display: none;
+    font-size: 13px;
   }
   .head img {
-    width: 60px;
+    width: 20%;
   }
   .flex-container {
     display: none;
   }
   .book-online {
-    width: 25%;
-    font-size: 5px;
+    width: 40%;
     height: 30px;
     line-height: 30px;
   }
   .book-online0 {
-    width: 35%;
-    font-size: 5px;
+    display: none;
   }
   .menu-block {
     width: 20%;

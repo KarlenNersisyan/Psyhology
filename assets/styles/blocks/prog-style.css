@@ -5,9 +5,11 @@
 body {
   background-color: aliceblue;
 }
+/* -----------------Menu Start */
 .menu {
   position: fixed;
   width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-around;
   height: 90px;
@@ -16,13 +18,46 @@ body {
   align-items: center;
   z-index: 99999999;
 }
+
+/* ------------------------------------------------ */
+.menu-block {
+  width: 19%;
+  display: none;
+}
+.menu-mobile {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: #cacccf;
+  font-size: 0.5rem;
+  border-radius: 20px;
+}
+
+.menu-item a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+.menu-table {
+  visibility: collapse;
+  position: absolute;
+  list-style: none;
+  transition: 0.1s;
+  background-color: #cacccf;
+  opacity: 1;
+}
+.menu-block:hover .menu-table {
+  visibility: visible;
+}
+/* ------------------------------------------------ */
 .menu > a > span {
   color: var(--menu-item-color);
   font-family: "Satisfy", cursive;
 }
 .head {
   width: 30%;
-  font-size: 30px;
+  font-size: 1.25rem;
   text-decoration: none;
 }
 
@@ -30,14 +65,11 @@ body {
   width: 40%;
   list-style: none;
   display: flex;
+  justify-content: space-between;
   font-family: "Noto Sans TC", sans-serif;
 }
-.space-evenly {
-  justify-content: space-evenly;
-}
 .flex-item {
-  width: 100%;
-  margin: 10px;
+  width: 20%;
   cursor: pointer;
   font-size: 20px;
   transition: 0.1s;
@@ -76,7 +108,7 @@ body {
   background-color: var(--menu-book-online-bg-color);
   border-radius: 50px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1rem;
   text-align: center;
   line-height: 50px;
   transition: 0.5s;
@@ -89,39 +121,10 @@ body {
 }
 .book-online0 {
   color: var(--menu-item-color);
+  font-size: 1rem;
   font-family: "Noto Sans TC", sans-serif;
 }
-/* ------------------------------------------------ */
-.menu-block {
-  width: 19%;
-  display: none;
-}
-.menu-mobile {
-  position: relative;
-  width: 100%;
-  height: 30px;
-  border: none;
-  background-color: #cacccf;
-  font-size: 5px;
-  border-radius: 20px;
-}
-
-.menu-item a {
-  font-size: 15px;
-  color: black;
-  text-decoration: none;
-}
-.menu-table {
-  visibility: collapse;
-  position: absolute;
-  list-style: none;
-  transition: 0.1s;
-  background-color: #cacccf;
-  opacity: 1;
-}
-.menu-block:hover .menu-table {
-  visibility: visible;
-}
+/* ---------------Menu End */
 /* ------------------------------------------------ */
 .prog-item2 {
   width: 90%;
@@ -134,17 +137,15 @@ body {
 .fon {
   width: 100%;
   height: 100%;
+  text-align: center;
+  line-height: 550px;
   background-color: #1f1f1fad;
-  padding: 260px 5% 0px 100px;
 }
 .fon > h1 > span {
   border-bottom: solid 1px white;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 2.5rem;
   color: white;
-}
-.fon > h1 {
-  text-align: center;
 }
 .prog-item1 {
   font-size: 1.5rem;
@@ -167,9 +168,11 @@ body {
   width: 100%;
   cursor: pointer;
 }
-
+.item1 {
+  text-align: center;
+}
 .item1 h2 {
-  padding: 0px 25px;
+  font-size: 1.4rem;
   font-family: "Noto Sans TC", sans-serif;
 }
 .item1 ul {
@@ -189,7 +192,7 @@ body {
 .item3 {
   width: 100%;
   background-color: #f1f1f2;
-  padding: 5px 5px;
+  text-align: center;
 }
 .item4,
 .item5,
@@ -199,7 +202,7 @@ body {
 }
 
 .item3 h2 {
-  padding: 0px 25px;
+  font-size: 1.4rem;
   font-family: "Noto Sans TC", sans-serif;
 }
 .item3 ul {
@@ -388,8 +391,8 @@ body {
   }
 }
 @media (max-width: 425px) {
-  body {
-    font-size: 15px;
+  .menu {
+    justify-content: space-between;
   }
   .head {
     width: 33%;
@@ -406,12 +409,10 @@ body {
   .book-online {
     width: 24%;
     height: 30px;
-    font-size: 5px;
     line-height: 30px;
   }
   .book-online0 {
     width: 24%;
-    font-size: 5px;
     height: 30px;
     line-height: 30px;
   }
@@ -429,15 +430,16 @@ body {
   .prog-item2 {
     height: 300px;
   }
-  .fon{
-    position: relative;
+  .fon {
+    line-height: 300px;
   }
-  .fon h1 {
-    position: absolute;
-    top:115px;
-    left:40px;
-    }
   .fon > h1 > span {
+    font-size: 1rem;
+  }
+  .item1 h2 {
+    font-size: 0.7rem;
+  }
+  .item3 > h2 {
     font-size: 0.9rem;
   }
   .prog-part {
@@ -524,16 +526,17 @@ body {
   .prog-item2 {
     height: 270px;
   }
-  .fon{
-    position: relative;
+  .fon {
+    line-height: 300px;
   }
-  .fon h1 {
-    position: absolute;
-    top:100px;
-    left:35px;
-    }
   .fon > h1 > span {
     font-size: 0.8rem;
+  }
+  .item1 h2 {
+    font-size: 0.6rem;
+  }
+  .item3 > h2 {
+    font-size: 0.9rem;
   }
   .end-part {
     flex-direction: column;
@@ -570,30 +573,25 @@ body {
   }
 }
 @media (max-width: 320px) {
-  body {
-    font-size: 15px;
-  }
   .head {
-    width: 20%;
+    width: 40%;
   }
   .head span {
-    display: none;
+    font-size: 13px;
   }
   .head img {
-    width: 60px;
+    width: 20%;
   }
   .flex-container {
     display: none;
   }
   .book-online {
-    width: 25%;
-    font-size: 5px;
+    width: 40%;
     height: 30px;
     line-height: 30px;
   }
   .book-online0 {
-    width: 35%;
-    font-size: 5px;
+    display: none;
   }
   .menu-block {
     width: 20%;
@@ -609,16 +607,17 @@ body {
   .prog-item2 {
     height: 260px;
   }
-  .fon{
-    position: relative;
+  .fon {
+    line-height: 300px;
   }
-  .fon h1 {
-    position: absolute;
-    top:90px;
-    left:30px;
-    }
   .fon > h1 > span {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+  }
+  .item1 h2 {
+    font-size: 0.6rem;
+  }
+  .item3 > h2 {
+    font-size: 0.9rem;
   }
   .end-part {
     flex-direction: column;
