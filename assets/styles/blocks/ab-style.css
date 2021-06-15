@@ -128,8 +128,8 @@ body {
 /* ------------------------------------------------ */
 .header {
   width: 90%;
-  margin-left: 5%;
   height: 500px;
+  margin-left: 5%;
   background-image: url(../../Images/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,23 +138,20 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  font-size: 27px;
-  padding: 150px 5% 0 10%;
   background-color: rgb(51 54 58 / 65%);
+}
+.header-fon > h1 {
+  font-size: 3rem;
+  padding: 100px 0;
 }
 .header-fon > h1 > span {
   border-bottom: 1px #fff solid;
   font-family: "Noto Sans TC", sans-serif;
-}
-.header-fon h1 {
   color: white;
 }
 .header-fon p {
   color: white;
-  padding-top: 20px;
   font-family: "Noto Sans TC", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  text-align: justify;
 }
 
 .background2 {
@@ -424,13 +421,19 @@ body {
   .flex-container {
     display: none;
   }
+  .header-fon > h1 > span {
+    font-size: 1.5rem;
+  }
+  .header-fon > p {
+    font-size: 0.5rem;
+  }
   .book-online {
-    width: 24%;
+    width: 22%;
     height: 30px;
     line-height: 30px;
   }
   .book-online0 {
-    width: 24%;
+    width: 26%;
     height: 30px;
     line-height: 30px;
   }
@@ -470,6 +473,10 @@ body {
   }
   .journey-text {
     width: 100%;
+  }
+  .header-fon > h1 {
+    font-size: 2rem;
+    padding: 60px 0;
   }
   .end-part {
     flex-direction: column;
@@ -541,6 +548,10 @@ body {
     padding: 0px;
     display: flex;
     justify-content: space-around;
+  }
+  .header-fon > h1 {
+    font-size: 1.8rem;
+    padding: 65px 0;
   }
   .background2 {
     flex-direction: column;
@@ -633,6 +644,10 @@ body {
     padding: 0px;
     display: flex;
     justify-content: space-around;
+  }
+  .header-fon > h1 {
+    font-size: 1.6rem;
+    padding: 65px 0;
   }
   .background2 {
     flex-direction: column;

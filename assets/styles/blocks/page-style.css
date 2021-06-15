@@ -365,12 +365,12 @@ body {
     display: none;
   }
   .book-online {
-    width: 24%;
+    width: 22%;
     height: 30px;
     line-height: 30px;
   }
   .book-online0 {
-    width: 24%;
+    width: 26%;
     height: 30px;
     line-height: 30px;
   }
@@ -398,7 +398,7 @@ body {
     font-size: 0.65rem;
   }
   .pg-item {
-    font-size:0.6rem;
+    font-size: 0.6rem;
   }
   .menu-mobile {
     font-size: 0.5rem;
@@ -488,7 +488,7 @@ body {
     font-size: 13px;
   }
   .pg-item {
-    font-size:0.6rem;
+    font-size: 0.6rem;
   }
   .fon1 h2 {
     font-size: 20px;
